@@ -1,0 +1,5 @@
+
+type StoreConfig {
+    
+    api_general_sourceurl  : String  @doc(description: "Query by api_general_sourceurl.") ,
+}

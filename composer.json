@@ -1,0 +1,28 @@
+{
+    "name": "navin/cmsimportexport",
+    "description": "CMS Import Export Module For Magento-2",
+    "require": {
+        "magento/magento-composer-installer": "*"
+    },
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],	
+    "type": "magento2-module",
+    "authors": [
+        {
+            "email": "navindbhudiya@gmail.com",
+            "name": "Navin Bhudiya"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Navin\\CmsImportExport\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    }
+}
