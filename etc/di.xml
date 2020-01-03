@@ -3,9 +3,11 @@
 	<type name="Magento\Framework\Console\CommandList">
 		<arguments>
 			<argument name="commands" xsi:type="array">
-				<item name="SyncStaticBlock" xsi:type="object">Navin\CmsImportExport\Console\Command\SyncStaticBlock</item>
-				<item name="SyncCmsPage" xsi:type="object">Navin\CmsImportExport\Console\Command\SyncCmsPage</item>
+				<item name="SyncImport" xsi:type="object">Navin\CmsImportExport\Console\Command\Import</item>
+				<item name="ExportStaticBlock" xsi:type="object">Navin\CmsImportExport\Console\Command\ExportStaticBlock</item>
+				<item name="ExportCmsPage" xsi:type="object">Navin\CmsImportExport\Console\Command\ExportCmsPage</item>
 			</argument>
 		</arguments>
 	</type>
+	<preference for="Navin\CmsImportExport\Api\ContentInterface" type="Navin\CmsImportExport\Model\Content" />
 </config>

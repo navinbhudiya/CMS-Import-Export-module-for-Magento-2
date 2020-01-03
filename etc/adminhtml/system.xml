@@ -11,8 +11,10 @@
 			<group id="general" showInDefault="1" showInStore="0" showInWebsite="0" sortOrder="100" translate="label">
 				<label>Source Website Details</label>
 				<field id="sourceurl" showInDefault="1" showInStore="0" showInWebsite="0" sortOrder="10" translate="label" type="text">
-					<label>source Website URL</label>
-					<comment/>
+					<label>Source Website URL</label>
+				</field>
+				<field id="token" showInDefault="1" showInStore="0" showInWebsite="0" sortOrder="10" translate="label" type="text">
+					<label>Token</label>
 				</field>
 			</group>
 		</section>
