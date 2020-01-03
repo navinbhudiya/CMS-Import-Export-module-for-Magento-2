@@ -6,10 +6,14 @@ i have use concept of msp/cmsimportexport and rewrite this worked based on commo
 ### ## How to export CMS Block
 
  - php bin/magento export:cmsblock
+ 
+ Note File Exported At :var/navin_cmsimportexport/export
 
 ### ## How to export CMS Page
 
  - php bin/magento export:page
+ 
+ Note File Exported At :var/navin_cmsimportexport/export
 
 ### ## How to export CMS Page
 
