@@ -15,7 +15,7 @@ i have use concept of msp/cmsimportexport and rewrite code based on my requireme
  
  Note File Exported At :var/navin_cmsimportexport/export
 
-### ## How to export CMS Page
+### ## How to IMPORT CMS Page/Block
 
  Upload Import Zip File into app/code/Navin/CmsImportExport/export
  
