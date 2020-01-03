@@ -1,9 +1,6 @@
 {
     "name": "navin/cmsimportexport",
     "description": "CMS Import Export Module For Magento-2",
-    "require": {
-        "magento/magento-composer-installer": "*"
-    },
     "license": [
         "OSL-3.0",
         "AFL-3.0"
